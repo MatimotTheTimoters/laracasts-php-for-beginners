@@ -8,9 +8,9 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
-                        <a href="/" aria-current="page" class="<?php echo((isCurrentPage('/') ? $selected : $unselected)); echo($default) ?>">Home</a>
-                        <a href="/about.php" class="<?php echo((isCurrentPage('/about.php') ? $selected : $unselected)); echo($default) ?>">About</a>
-                        <a href="/contact.php" class="<?php echo((isCurrentPage('/contact.php') ? $selected : $unselected)); echo($default) ?>">Contact</a>
+                        <a href="/" aria-current="page" class="<?= isCurrentPage('/') ? $selected : $unselected?> rounded-md px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="/about" class="<?= isCurrentPage('/') ? $selected : $unselected?> rounded-md px-3 py-2 text-sm font-medium">About</a>
+                        <a href="/contact" class="<?= isCurrentPage('/') ? $selected : $unselected?> rounded-md px-3 py-2 text-sm font-medium">Contact</a>
                     </div>
                 </div>
             </div>

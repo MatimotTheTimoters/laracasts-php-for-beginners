@@ -8,7 +8,6 @@ function dd($value) {
 }
 
 // Navbar partial
-$default = "rounded-md px-3 py-2 text-sm font-medium";
 $selected = "bg-gray-900 text-white";
 $unselected = "text-gray-300 hover:bg-white/5 hover:text-white";
 
